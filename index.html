@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Javascript assignment</title>
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <div class="container">
+        <div class="title">
+            <h2>Enter Your Names And See How Compactible You Both Are</h2>
+        </div>
+        <div class="input-fields">
+            <div class="input-one">
+                <input type="text" name="inputone" id="inputOne" placeholder="Enter Your Name">
+            </div>
+            <div class="input-heart"><i class="fa-solid fa-face-grin-hearts fa-4x" style="color: #d71414;"></i></div>
+            <div class="input-two">
+                <input type="text" name="inputtwo" id="inputTwo" placeholder="Enter Your Partner's Name">
+            </div>
+        </div>
+        <div class="button">
+            <button class="btn-calculate" id="btn-calculate"> Calculate Results</button>
+        </div>
+
+        <div class="results" id="results-div"></div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
